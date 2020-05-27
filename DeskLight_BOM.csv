@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"1";"";"693071020811";"693071020811";"J1";"WR-CRD Micro SD Card Connector Push & Push 8 pins";"";
+"3";"";"R-US_R0603";"R0603";"R1, R2, R3";"RESISTOR, American symbol";"";
+"3";"0.1uF";"C-EUC0603K";"C0603K";"C2, C4, C5";"CAPACITOR, European symbol";"";
+"2";"10k";"R-US_R0603";"R0603";"R4, R5";"RESISTOR, American symbol";"";
+"1";"10uF";"C-EUC0603K";"C0603K";"C6";"CAPACITOR, European symbol";"";
+"6";"1k";"R-US_R0603";"R0603";"R6, R7, R8, R9, R10, R11";"RESISTOR, American symbol";"";
+"1";"1uF";"C-EUC0603K";"C0603K";"C3";"CAPACITOR, European symbol";"";
+"1";"22uF";"CPOL-EUCT3216";"CT3216";"C1";"POLARIZED CAPACITOR, European symbol";"";
+"1";"BLUE";"LEDCHIP-LED0603";"CHIP-LED0603";"RX";"LED";"";
+"1";"CH340C";"CH340C";"SO016";"U2";"";"";
+"1";"ESP32-WROOM-32D";"ESP32-WROOM-32D";"MODULE_ESP32-WROOM-32D";"U1";"Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 + EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Integrated, Trace Surface Mount";"";
+"2";"KMR2";"SPST_TACT-KMR2";"KMR2";"BOOT, RESET";"SMT 6mm switch, EVQQ2 series";"";
+"1";"MICRO-USB-47589-0001";"MICRO-USB-RECEPTACLE47589-0001";"47589-0001";"USB";"MICRO USB RECEPTACLES";"";
+"3";"MJD122";"MJD31";"DPAK";"T3, T4, T5";"Complementary Power Transistors";"";
+"2";"MMBT2222";"MMBT2222ALT1-NPN-SOT23-BEC";"SOT23-BEC";"T1, T2";"NPN Transistror";"";
+"3";"RED";"LEDCHIP-LED0603";"CHIP-LED0603";"IO2, LED1, TX";"LED";"";
+"1";"REG1117";"REG1117";"SOT223";"IC1";"800mA and 1A Low Dropout (LDO) Positive Regulator";"";
