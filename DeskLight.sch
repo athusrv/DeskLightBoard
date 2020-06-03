@@ -17212,18 +17212,18 @@ Source: AVX .. aphvc.pdf</description>
 <smd name="39_7" x="-2.835" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
 <smd name="39_8" x="-1" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
 <smd name="39_9" x="0.835" y="-4.075" dx="1.33" dy="1.33" layer="1"/>
-<pad name="39_10" x="-1.9175" y="-0.405" drill="0.2" diameter="0.3"/>
-<pad name="39_11" x="-0.0825" y="-0.405" drill="0.2" diameter="0.3"/>
-<pad name="39_12" x="-2.835" y="-1.3225" drill="0.2" diameter="0.3"/>
-<pad name="39_13" x="-1" y="-1.3225" drill="0.2" diameter="0.3"/>
-<pad name="39_14" x="0.835" y="-1.3225" drill="0.2" diameter="0.3"/>
-<pad name="39_15" x="-1.9175" y="-2.24" drill="0.2" diameter="0.3"/>
-<pad name="39_16" x="-0.0825" y="-2.24" drill="0.2" diameter="0.3"/>
-<pad name="39_17" x="-2.835" y="-3.1575" drill="0.2" diameter="0.3"/>
-<pad name="39_18" x="-1" y="-3.1575" drill="0.2" diameter="0.3"/>
-<pad name="39_19" x="0.835" y="-3.1575" drill="0.2" diameter="0.3"/>
-<pad name="39_20" x="-1.9175" y="-4.075" drill="0.2" diameter="0.3"/>
-<pad name="39_21" x="-0.0825" y="-4.075" drill="0.2" diameter="0.3"/>
+<pad name="39_10" x="-1.9175" y="-0.405" drill="0.35"/>
+<pad name="39_11" x="-0.0825" y="-0.405" drill="0.35"/>
+<pad name="39_12" x="-2.835" y="-1.3225" drill="0.35"/>
+<pad name="39_13" x="-1" y="-1.3225" drill="0.35"/>
+<pad name="39_14" x="0.835" y="-1.3225" drill="0.35"/>
+<pad name="39_15" x="-1.9175" y="-2.24" drill="0.35"/>
+<pad name="39_16" x="-0.0825" y="-2.24" drill="0.35"/>
+<pad name="39_17" x="-2.835" y="-3.1575" drill="0.35"/>
+<pad name="39_18" x="-1" y="-3.1575" drill="0.35"/>
+<pad name="39_19" x="0.835" y="-3.1575" drill="0.35"/>
+<pad name="39_20" x="-1.9175" y="-4.075" drill="0.35"/>
+<pad name="39_21" x="-0.0825" y="-4.075" drill="0.35"/>
 </package>
 </packages>
 <symbols>
