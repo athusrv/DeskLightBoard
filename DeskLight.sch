@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -19054,18 +19054,18 @@ Source: DCJ0202.pdf</description>
 <smd name="G.9" x="-1" y="-0.925" dx="1.33" dy="1.33" layer="1"/>
 <smd name="G.10" x="-2.835" y="-0.925" dx="1.33" dy="1.33" layer="1"/>
 <smd name="G.8" x="0.835" y="-0.925" dx="1.33" dy="1.33" layer="1"/>
-<pad name="G.14" x="-1" y="1.8275" drill="0.254"/>
-<pad name="G.15" x="-2.835" y="1.8275" drill="0.254"/>
-<pad name="G.13" x="0.835" y="1.8275" drill="0.254"/>
-<pad name="G.20" x="-2.835" y="-0.0075" drill="0.254"/>
-<pad name="G.19" x="-1" y="-0.0075" drill="0.254"/>
-<pad name="G.18" x="0.835" y="-0.0075" drill="0.254"/>
-<pad name="G.17" x="-1.9175" y="0.91" drill="0.254"/>
-<pad name="G.16" x="-0.0825" y="0.91" drill="0.254"/>
-<pad name="G.12" x="-1.9175" y="2.745" drill="0.254"/>
-<pad name="G.11" x="-0.0825" y="2.745" drill="0.254"/>
-<pad name="G.22" x="-1.9175" y="-0.925" drill="0.254"/>
-<pad name="G.21" x="-0.0825" y="-0.925" drill="0.254"/>
+<pad name="G.14" x="-1" y="1.8275" drill="0.35"/>
+<pad name="G.15" x="-2.835" y="1.8275" drill="0.35"/>
+<pad name="G.13" x="0.835" y="1.8275" drill="0.35"/>
+<pad name="G.20" x="-2.835" y="-0.0075" drill="0.35"/>
+<pad name="G.19" x="-1" y="-0.0075" drill="0.35"/>
+<pad name="G.18" x="0.835" y="-0.0075" drill="0.35"/>
+<pad name="G.17" x="-1.9175" y="0.91" drill="0.35"/>
+<pad name="G.16" x="-0.0825" y="0.91" drill="0.35"/>
+<pad name="G.12" x="-1.9175" y="2.745" drill="0.35"/>
+<pad name="G.11" x="-0.0825" y="2.745" drill="0.35"/>
+<pad name="G.22" x="-1.9175" y="-0.925" drill="0.35"/>
+<pad name="G.21" x="-0.0825" y="-0.925" drill="0.35"/>
 </package>
 </packages>
 <symbols>
@@ -20035,14 +20035,14 @@ unfilled</description>
 </classes>
 <parts>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="ESP32-WROOM-32U" deviceset="ESP32-WROOM-32U" device="" override_package3d_urn="urn:adsk.eagle:package:27501419/2" override_package_urn="urn:adsk.eagle:footprint:27501420/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uF"/>
+<part name="U1" library="ESP32-WROOM-32U" deviceset="ESP32-WROOM-32U" device="" override_package3d_urn="urn:adsk.eagle:package:27501419/2" override_package_urn="urn:adsk.eagle:footprint:27501420/1" override_locally_modified="yes"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -20059,10 +20059,10 @@ unfilled</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="MICRO-SIDELED" package3d_urn="urn:adsk.eagle:package:15815/1" override_package3d_urn="urn:adsk.eagle:package:27501287/2" override_package_urn="urn:adsk.eagle:footprint:15669/1" value="RED"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_AP2112" device="K-3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" override_package3d_urn="urn:adsk.eagle:package:27501300/2" override_package_urn="urn:adsk.eagle:footprint:39006/1" value="3.3V"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="DCJ0202" device="" package3d_urn="urn:adsk.eagle:package:7491/1" override_package3d_urn="urn:adsk.eagle:package:27501288/3" override_package_urn="urn:adsk.eagle:footprint:7486/1"/>
